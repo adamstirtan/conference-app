@@ -12,7 +12,7 @@ export default class App extends LightningElement {
             if (event.state) {
                 this.state = event.state;
             }
-        }
+        };
     }
 
     handleNavigate(event) {
